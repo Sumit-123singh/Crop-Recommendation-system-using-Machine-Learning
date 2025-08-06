@@ -73,55 +73,73 @@ Crop_Recommendation_System/
 ├── requirements.txt                            # Required Python packages
 ```
 
-📦 requirements.txt
+## 📦 requirements.txt
+```
 flask
 pandas
 numpy
 scikit-learn
 joblib
-
-Generate it manually using:
+```
+👉 Generate it manually using:
+```
 pip freeze > requirements.txt
+```
 
-⚙️ How to Run
-1️⃣ Clone the repository
+---
+
+## ⚙️ How to Run
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Sumit-123singh/Crop-Recommendation-system-using-Machine-Learning
 cd crop-recommendation-system
+```
 
-2️⃣ Create and activate virtual environment
-Using venv:
+### 2️⃣ Create and Activate Virtual Environment
+```bash
 python -m venv myenv
-myenv\Scripts\activate     # (Windows)
+myenv\Scripts\activate  # For Windows
+```
 
-3️⃣ Install dependencies
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Run Flask App
+### 4️⃣ Run the Flask App
+```bash
 python app.py
-Visit: http://127.0.0.1:5000/ in your browser.
+```
 
-📊 Dataset Used
-File: crop_recommendation.csv
+🔗 Visit: [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser.
 
-Features:
+---
 
-Nitrogen (N), Phosphorus (P), Potassium (K)
+## 📊 Dataset Used
 
-Temperature, Humidity, pH, Rainfall
+- **File**: `crop_recommendation.csv`
+- **Features**:
+  - Nitrogen (N), Phosphorus (P), Potassium (K)
+  - Temperature, Humidity, pH, Rainfall
+- **Target**: Crop name (e.g., rice, wheat, cotton)
 
-Target: Crop name (e.g., rice, wheat, cotton)
+---
 
-✅ Output Example
-Based on the input soil and climate data, we recommend you to grow Maize 🌽.
+## ✅ Output Example
 
-🧪 Model Info
-Final Model: Random Forest Classifier
+> Based on the input soil and climate data,  
+> we recommend you to grow **Maize 🌽**
 
-Preprocessing:
+---
 
-StandardScaler or MinMaxScaler (pickled)
+## 🧪 Model Info
 
-Stored model: model.pkl
+- **Final Model**: Random Forest Classifier
+- **Preprocessing**: StandardScaler or MinMaxScaler (pickled)
+- **Stored Model File**: `model.pkl`
+
+---
 
 👨‍💻 Author
 Sumit Singh
