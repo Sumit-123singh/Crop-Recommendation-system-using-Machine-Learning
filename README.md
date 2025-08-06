@@ -1,37 +1,36 @@
 🌾 Crop Recommendation System using ML, Flask & Jinja2
+
+
 🚀 Overview
+
 The Crop Recommendation System is a smart Flask web application that predicts the best crop to cultivate based on soil and environmental conditions. It uses a trained Machine Learning model and provides an easy-to-use interface built with Jinja2 templates.
 
 🎯 Features
-📥 Input: N, P, K, Temperature, Humidity, pH, Rainfall
 
+📥 Input: N, P, K, Temperature, Humidity, pH, Rainfall
 🌱 Output: Best crop to grow (e.g., Rice, Maize, Cotton, etc.)
 
+
 📊 Machine Learning model trained on real-world data
-
 ⚙️ Flask web app with Jinja2 templating
-
 📁 Scalable and clean folder structure
-
 🎨 Simple and responsive UI
 
 🧠 Technologies Used
-Python 3.10+
-
-Flask
-
-Jinja2
-
-Pandas, Numpy, Scikit-learn
-
-Pickle
-
-HTML/CSS/Bootstrap
+ Python 3.10+
+ Flask
+ Jinja2
+ Pandas, Numpy, Scikit-learn
+ Pickle
+ HTML/CSS/Bootstrap
 
 📂 Project Directory Structure
-csharp
-Copy
-Edit
+csharp 
+
+
+## 📂 Project Directory Structure
+
+```text
 Crop_Recommendation_System/
 │
 ├── virtual_document/                           # Optional Documentation
@@ -55,7 +54,7 @@ Crop_Recommendation_System/
 ├── model.pkl                                   # Trained ML model
 ├── standscalar.pkl                             # StandardScaler pickle
 ├── requirements.txt                            # Required Python packages
-
+```
 
 📦 requirements.txt
 flask
